@@ -1,0 +1,103 @@
+.form_container {
+    width: 350px;
+    height: 200px; 
+}
+
+.form_fieldset {
+    position: relative;
+    width: 100%;
+    background-color: var(--color-white);
+    border: 0.5px solid var(--color-line-in-white);
+    border-top: 5px solid red;
+    border-radius: 5px;
+    padding: 1.5rem 1.2rem;
+    margin: 3rem 0;
+}
+
+.form_design {
+    position: absolute;
+    left: 0;
+    top: -33px;
+    width: 20%;
+    height: 25px;
+    background-color: red;
+    border-radius: 4px 7px 0 0;
+}
+
+.form_design span {
+    display: inline-block;
+    font-size: 0.6rem;
+    color: #fff;
+    padding-left: 0.5rem;
+}
+
+.form_inputBlock label,
+.form_selectBlock label {
+    display: block;
+    width: 100%;
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 5px;
+}
+
+.form_inputBlock input,
+.form_selectBlock input {
+    position: relative;
+    width: 100%;
+    border: 1px solid #cad3dc;
+    border-radius: 3px;
+    padding: 6px 5px;
+    outline: none;
+    color: #171c20;
+    font-size: 0.7rem;
+}
+
+.form_checkedBlock {
+    margin: 10px 0;
+}
+
+.form_checkedBlock label {
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 5px;
+}
+
+.form_checkedBlock input {
+    margin-left: 10px;
+    width: 0.6rem;
+}
+
+.form_checkedBlock span {
+    font-size: 0.8rem;
+}
+
+.form_fieldset input::placeholder {
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.form_fieldset legend {
+    font-family: 'Archivo Narrow';
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0 10px;
+    color: #202931;
+}
+
+.form_inputBlock {
+    position: relative;
+    margin: 10px 0;
+}
+
+.form_inputBlock:focus-within::after {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 6px;
+    width: 96%;
+    height: 1px;
+    background-color: #3462eb;
+}
+
+
+
