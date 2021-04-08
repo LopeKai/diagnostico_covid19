@@ -6,6 +6,7 @@
   --color-background: #F0F0F7;
   --color-white: #fff;
   --color-line-in-white: #E6E6F0;
+  --color-legend: #202931;
 
   font-size: 95%;
 }
@@ -20,7 +21,7 @@ html,body {
   height: 100%;
 }
 
-body {
-  width: 100%;
+/* body {
   background-color:  var(--color-background) ;
-}
+  border: 1px solid red;
+} */

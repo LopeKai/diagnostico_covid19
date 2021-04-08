@@ -11,13 +11,13 @@
     border-top: 5px solid red;
     border-radius: 5px;
     padding: 1.5rem 1.2rem;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 .form_design {
     position: absolute;
     left: 0;
-    top: -33px;
+    top: -35px;
     width: 20%;
     height: 25px;
     background-color: red;
@@ -81,7 +81,7 @@
     letter-spacing: 1px;
     text-align: center;
     padding: 0 10px;
-    color: #202931;
+    color: var(--color-legend);
 }
 
 .form_inputBlock {
@@ -98,6 +98,42 @@
     height: 1px;
     background-color: #3462eb;
 }
+
+.form_selectBlock select {
+    display: block;
+    width: 100%;
+    border: 1px solid #cad3dc;
+    border-radius: 3px;
+    padding: 6px 5px;
+    outline: none;
+    color: #171c20;
+    font-size: 0.7rem;
+}
+
+.form_selectBlock select option{
+    font-size: 1rem;
+}
+
+.button {
+    display: block;
+    width: 75%;
+    padding: 10px 8px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    background-color: #0071e3;
+    cursor: pointer;
+    outline: none;
+    transition: 200ms ease;
+    box-shadow: 0 0 1px #111;
+}
+
+.button:hover {
+    background-color: #0077ed;
+}
+
 
 
 

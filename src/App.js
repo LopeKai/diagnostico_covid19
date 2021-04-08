@@ -7,7 +7,7 @@ import Form from './components/form'
 
 function App() {
   return (
-    <div className="app">
+    <div className="app-container">
       <Header />
       <main>
         <Form />
