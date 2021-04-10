@@ -44,7 +44,7 @@ function Form() {
                 <legend> Sintomas apresentados </legend>
                 <div className={styles.form_checkedBlock} style={{borderBottom: '1px solid var(--color-line-in-white)', paddingBottom:'5px', marginBottom: '10px'}}>
                     <label> Tosse seca? </label>
-                    <input id="tosseSim" type="radio" name="tosse" checked /> <span> Sim </span> 
+                    <input className={styles.inputRadio} id="tosseSim" type="radio" name="tosse" checked /> <span> Sim </span> 
                     <input id="tosseNao" type="radio" name="tosse" /> <span> Não </span> 
                 </div>
                 <div className={styles.form_checkedBlock} style={{borderBottom: '1px solid var(--color-line-in-white)', paddingBottom:'5px', marginBottom: '10px'}}>

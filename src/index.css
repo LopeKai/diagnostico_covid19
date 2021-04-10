@@ -21,7 +21,6 @@ html,body {
   height: 100%;
 }
 
-/* body {
+body {
   background-color:  var(--color-background) ;
-  border: 1px solid red;
-} */
+}

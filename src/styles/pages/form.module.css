@@ -1,6 +1,13 @@
 .form_container {
+    display: block;
+    position: relative;
     width: 350px;
-    height: 200px; 
+}
+
+@media(max-width: 600px) {
+    .form_container {
+        max-width: 100%;
+    }
 }
 
 .form_fieldset {
@@ -8,7 +15,7 @@
     width: 100%;
     background-color: var(--color-white);
     border: 0.5px solid var(--color-line-in-white);
-    border-top: 5px solid red;
+    border-top: 6px solid red;
     border-radius: 5px;
     padding: 1.5rem 1.2rem;
     margin: 2rem 0;
@@ -22,6 +29,22 @@
     height: 25px;
     background-color: red;
     border-radius: 4px 7px 0 0;
+
+    display: flex;
+    align-items: center;
+   
+}
+
+@media(max-width:600px) {
+    .form_design {
+        position: absolute;
+        left: 0;
+        top: -33px;
+        width: 16%;
+        height: 25px;
+        background-color: red;
+        border-radius: 4px 7px 0 0;
+    }
 }
 
 .form_design span {
@@ -29,6 +52,12 @@
     font-size: 0.6rem;
     color: #fff;
     padding-left: 0.5rem;
+}
+
+@media(max-width:600px) {
+    .form_design span {
+        font-size: 0.3rem;
+    }
 }
 
 .form_inputBlock label,
@@ -62,7 +91,9 @@
     margin-bottom: 5px;
 }
 
-.form_checkedBlock input {
+.form_checkedBlock input[type="radio"] {
+    /* z-index: -1;
+    opacity: 0; */
     margin-left: 10px;
     width: 0.6rem;
 }
@@ -92,11 +123,11 @@
 .form_inputBlock:focus-within::after {
     position: absolute;
     content: '';
-    bottom: 0px;
+    bottom: -0.3px;
     left: 6px;
     width: 96%;
     height: 1px;
-    background-color: #3462eb;
+    background-color: #0071e3; 
 }
 
 .form_selectBlock select {
@@ -111,7 +142,7 @@
 }
 
 .form_selectBlock select option{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .button {
@@ -128,6 +159,15 @@
     outline: none;
     transition: 200ms ease;
     box-shadow: 0 0 1px #111;
+}
+
+@media(max-width: 600px) {
+    .button {
+        width: 70%;
+        padding: 10px 8px;
+        border-radius: 8px;
+    }
+    
 }
 
 .button:hover {

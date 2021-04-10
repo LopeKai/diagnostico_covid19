@@ -12,6 +12,12 @@
     background-repeat: no-repeat;
 }
 
+@media(max-width: 600px) {
+    .header_img {
+        background-size: 130%;
+    }
+}
+
 .header_gradient {
     width: 100%;
     height: 100%;
