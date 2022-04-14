@@ -8,7 +8,6 @@
 
 <h4> Tecnologias: </h4>
 
-+ Html
-+ Css
-+ Javascript 
 + ReactJs
++ Javascript 
++ Css
